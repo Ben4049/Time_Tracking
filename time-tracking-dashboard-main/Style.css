@@ -1,0 +1,162 @@
+body{
+    margin: 0%;
+    background-color: #0d1323;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.card_container{  
+    width: 60%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.left_card{
+    /*background-color: #7036D3;*/
+    background-color: #1C1F4A;
+    height: 90%;
+    width: 20%;
+    border-radius: 8% 8% 5% 5%;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.left_card_top{
+    background-color: #5746ea;
+    height: 70%;
+    width: 100%;
+    border-radius: 8% 8% 8% 8%;
+    display: flex;
+    flex-direction: column;
+}
+
+.top_text{
+    margin-left: 10%;
+}
+
+.image{
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 30%;
+    align-items: center;
+}
+
+.left_card_bottom{
+    height: 30%;
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    margin-left: 5%;
+    line-height: 300%;
+}
+
+.right_cards{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right_card_top{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.right_card_bottom{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cards{
+    width: 30%;
+    height: 80%;
+    background-color: yellow;
+    border-radius: 8%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.card_image{
+    position: relative;
+    bottom: 1%;
+    z-index: 0;
+    height: 25%;
+}
+
+.info{
+    height: 75%;
+    width: 100%;
+    border-radius: 8% 8% 0% 0%;
+    background-color: #1C1F4A; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.Top_Bar{
+    height: 20%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.Middle{
+    height: 40%;
+    width: 80%;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    font-size: 300%;
+    margin-left: 20px;
+}
+
+.Bottom{
+    width: 80%;
+    height: 20%;
+    color: rgb(199, 189, 189);
+    display: flex;
+    align-items: flex-end;
+}
+/* Cards */ 
+
+#Card1{
+    background:linear-gradient(180deg, hsl(15, 100%, 70%) 0%, hsl(15, 100%, 70%) 50%, rgba(28,31,74,1) 51%, rgba(28,31,74,1) 100%);
+}
+
+#Card2{
+    background:linear-gradient(180deg, hsl(195, 74%, 62%) 0%, hsl(195, 74%, 62%) 50%, rgba(28,31,74,1) 51%, rgba(28,31,74,1) 100%);
+}
+
+#Card3{
+    background:linear-gradient(180deg,hsl(348, 100%, 68%) 0%, hsl(348, 100%, 68%) 50%, rgba(28,31,74,1) 51%, rgba(28,31,74,1) 100%);
+}
+
+#Card4{
+    background:linear-gradient(180deg, hsl(145, 58%, 55%) 0%, hsl(145, 58%, 55%) 50%, rgba(28,31,74,1) 51%, rgba(28,31,74,1) 100%);
+}
+
+#Card5{
+    background:linear-gradient(180deg, hsl(264, 64%, 52%) 0%, hsl(264, 64%, 52%) 50%, rgba(28,31,74,1) 51%, rgba(28,31,74,1) 100%);
+}
+
+#Card6{
+    background:linear-gradient(180deg, hsl(43, 84%, 65%) 0%, hsl(43, 84%, 65%) 50%, rgba(28,31,74,1) 51%, rgba(28,31,74,1) 100%);
+}
